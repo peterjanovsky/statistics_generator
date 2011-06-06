@@ -15,9 +15,7 @@ mongoose.connect('mongodb://localhost/statistics');
 
 // mongoose - models
 require('./models/log');
-require('./models/user');
 var logModel = mongoose.model('Log');
-var userModel = mongoose.model('User');
 
 
 // create udp4 socket
